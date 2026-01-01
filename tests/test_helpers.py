@@ -62,4 +62,4 @@ def teardown_test_environment():
     """Clean up the test environment."""
     if CLEANUP_TEST_ASSETS:
         cleanup_test_assets()
-        cleanup_test_world() 
+        cleanup_test_world()

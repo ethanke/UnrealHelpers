@@ -32,4 +32,4 @@ def create_material_expression(material, expression_class, x=0, y=0):
 def connect_material_expressions(from_expression, to_expression, from_output=0, to_input=0):
     """Connect two material expressions."""
     if from_expression and to_expression:
-        to_expression.connect_expression(from_expression, to_input, from_output) 
+        to_expression.connect_expression(from_expression, to_input, from_output)

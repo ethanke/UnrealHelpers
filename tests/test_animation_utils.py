@@ -78,7 +78,7 @@ class TestAnimationUtils(unittest.TestCase):
         )
         set_animation_sequence_length(sequence, 2.0)
         set_animation_sequence_rate(sequence, 30.0)
-        
+
         self.assertEqual(sequence.get_editor_property('SequenceLength'), 2.0)
         self.assertEqual(sequence.get_editor_property('FrameRate'), 30.0)
 
@@ -88,4 +88,4 @@ class TestAnimationUtils(unittest.TestCase):
         pass
 
 if __name__ == '__main__':
-    unittest.main() 
+    unittest.main()

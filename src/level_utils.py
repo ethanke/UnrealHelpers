@@ -28,4 +28,4 @@ def get_actor_location(actor):
 
 def set_actor_location(actor, location):
     """Set the location of an actor."""
-    actor.set_actor_location(location, False, False) 
+    actor.set_actor_location(location, False, False)

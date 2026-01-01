@@ -68,4 +68,4 @@ def set_animation_sequence_length(sequence, length):
 def set_animation_sequence_rate(sequence, rate):
     """Set the frame rate of an animation sequence."""
     if isinstance(sequence, unreal.AnimationSequence):
-        sequence.set_editor_property('FrameRate', rate) 
+        sequence.set_editor_property('FrameRate', rate)

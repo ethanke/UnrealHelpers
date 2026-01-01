@@ -79,4 +79,4 @@ def play_sound_2d(world, sound, volume_multiplier=1.0, pitch_multiplier=1.0):
             volume_multiplier=volume_multiplier,
             pitch_multiplier=pitch_multiplier
         )
-    return None 
+    return None

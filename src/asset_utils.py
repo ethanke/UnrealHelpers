@@ -26,4 +26,4 @@ def bulk_rename_assets(search_pattern, replace_pattern):
         if new_name != old_name:
             asset_path = asset.get_path_name()
             new_path = asset_path.replace(old_name, new_name)
-            unreal.EditorAssetLibrary.rename_asset(asset_path, new_path) 
+            unreal.EditorAssetLibrary.rename_asset(asset_path, new_path)
