@@ -67,4 +67,4 @@ def add_animation_track(animation, track_name, property_path):
     """Add a track to a widget animation."""
     if animation:
         return animation.add_track(track_name, property_path)
-    return None 
+    return None

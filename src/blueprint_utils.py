@@ -115,4 +115,4 @@ def set_variable_replication(blueprint, variable_name, replication_type):
             if var.get_name() == variable_name:
                 var.set_editor_property('ReplicationType', replication_type)
                 return True
-    return False 
+    return False

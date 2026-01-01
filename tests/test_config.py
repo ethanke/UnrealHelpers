@@ -36,4 +36,4 @@ TEST_PARENT_CLASSES = {
 
 # Test cleanup settings
 CLEANUP_TEST_ASSETS = True
-TEST_ASSET_PREFIX = "Test_" 
+TEST_ASSET_PREFIX = "Test_"

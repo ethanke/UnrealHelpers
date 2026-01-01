@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+# Allow star imports in test files since they use existing conventions
+select = ["E", "F", "W"]
+ignore = [
+    "F403",  # Star imports
+    "F405",  # May be undefined from star imports
+    "E501",  # Line too long (handled by line-length)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["F401"]  # Unused imports in test files
