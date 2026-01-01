@@ -1,3 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unreal_helpers"
+version = "0.1.0"
+description = "A collection of Python utilities for Unreal Engine 5.5"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "coverage>=7.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "coverage>=7.0.0",
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [tool.ruff]
 line-length = 120
 target-version = "py39"
